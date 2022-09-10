@@ -56,7 +56,7 @@ class Program
     class Voting
     {
         string topic;
-        Dictionary<string, bool> ResultsOfVoters { get; set; }
+        public Dictionary<string, bool> ResultsOfVoters { get; set; }
 
         public Voting(string topic, Dictionary<string, bool> resultsOfVoters)
         {
